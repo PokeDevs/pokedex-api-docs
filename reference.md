@@ -60,3 +60,56 @@ Current rate limit is 500 API calls in 12 hours. And we will increase the rate l
 
 We recommend that your application or website should locally cache the data that you receive to save the number of API calls consumed for the same resource.
 
+#### Header Format {#header-format}
+
+For every API request made, we return optional HTTP response headers containing the rate limit encountered during your request.
+
+```http
+Retry-After: 1301000
+X-RateLimit-Limit: 500
+X-RateLimit-Remaining: 201
+X-RateLimit-Reset: 905212800000
+```
+
+`Retry-After` - The number of milliseconds after which the rate limit will reset. It is returned only if you’ve been rate limited.
+
+`X-RateLimit-Limit` - The number of requests that can be made
+
+`X-RateLimit-Remaining` - The number of remaining requests that can be made
+
+`X-RateLimit-Reset` - Epoch time \(seconds since 00:00:00 UTC on January 1, 1970\) at which the rate limit resets. It is returned only if you’ve been rate limited.
+
+#### Exceeding A Rate Limit {#exceeding-a-rate-limit}
+
+In the case that a rate limit is exceeded, the API will return a HTTP 429 response code with a JSON body.
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| error | integer |  The HTTP response code. |
+| message | string |  A message saying you are being rate limited. |
+| retry\_after | integer |  The number of milliseconds to wait before submitting another request. |
+
+Note that the normal rate-limiting headers will be sent in this response.
+
+{% hint style="warning" %}
+API users that regularly hit and ignore rate limits will be banned \(by their IP address\) from using the API again.
+{% endhint %}
+
+#### Example Rate Limit Response {#example-rate-limit-response}
+
+The rate-limiting response will look something like the following:
+
+```bash
+< HTTP/1.1 429 TOO MANY REQUESTS
+< Content-Type: application/json
+< Retry-After: 14400000
+< X-RateLimit-Limit: 500
+< X-RateLimit-Remaining: 0
+< X-RateLimit-Reset: 905212800000
+{
+  "error": 429,
+  "message": "You are being rate limited. You're way too spicy at catching Pokémon.",
+  "retry_after": 14400000
+}
+```
+
