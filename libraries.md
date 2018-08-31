@@ -1,0 +1,27 @@
+---
+description: >-
+  Use any available API wrapper library for your programming language to save
+  your time and focus on what really matters - your application or website.
+---
+
+# Wrapper Libraries
+
+### Official Libraries {#official-libraries}
+
+Here’s a list of nifty libraries made by us that you can use for your project.
+
+| Library | Language | Links |
+| :--- | :--- | :--- |
+| pokedex-api | JavaScript | [GitHub](https://github.com/PokeDevs/node-pokedex-api), [NPM](https://www.npmjs.com/package/pokedex-api), [Yarn](https://yarnpkg.com/package/pokedex-api) |
+| pokedex.py | Python | [GitHub](https://github.com/PokeDevs/pokedex.py), [PyPI](https://pypi.org/project/pokedex.py/) |
+
+### Third-Party Libraries {#third-party-libraries}
+
+Here’s a list of amazing libraries made by us made by brilliant developers around the world that you can use for your project.
+
+> No third-party libraries are available yet. Check back soon. If you have one, edit this page and make a pull request adding your library here.
+
+{% hint style="info" %}
+If you are a developer and have made any wrapper library that can be used by anyone to power their application or website, we’d love to showcase your library here.
+{% endhint %}
+
