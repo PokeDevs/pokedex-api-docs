@@ -7,3 +7,5 @@
 
 ## Resources
 
+* [Meta](resources/meta.md)
+
