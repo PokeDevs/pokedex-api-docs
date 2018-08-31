@@ -40,5 +40,19 @@ Information successfully retrieved.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| title | string | The name the API |
+| baseURL | string | The base URL of the API for requesting resources |
+| resourceURL | string | The base URL of the image and other resources required by the API |
+| versions | array of strings | Available versions of the API |
+| author | string | The author/developer of the API |
 
+#### Example Request
+
+```bash
+curl -i -X GET \
+  -H "User-Agent: BastionDiscordBot (https://bastionbot.org, v6.16.1)" \
+  https://pokeapi.bastionbot.org/info
+```
 
