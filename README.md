@@ -8,5 +8,5 @@ The entire Pokédex data in one place and easily accessible through RESTful API!
 
 Here you’ll find documentation on how to use our Pokédex API and any other information regarding the same.
 
-All of our [documentation is available on GitHub](https://github.com/PokeDevs/pokedex-api-docs) and we would  ❤ corrections and improvements!
+All of our [documentation is available on GitHub](https://github.com/PokeDevs/pokedex-api-docs) and we would ❤ corrections and improvements!
 
