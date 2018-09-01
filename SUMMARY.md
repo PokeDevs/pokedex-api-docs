@@ -7,8 +7,8 @@
 
 ## Resources
 
+* [Categories](resources/categories.md)
 * [Egg Groups](resources/egg-groups.md)
 * [Types](resources/types.md)
 * [Meta](resources/meta.md)
-* [Categories](resources/categories.md)
 
