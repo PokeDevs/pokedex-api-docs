@@ -41,3 +41,20 @@ Counts successfully retrieved.
 {% endapi-method-spec %}
 {% endapi-method %}
 
+####  Pokémon Counts Structure
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| gen1 | integer | The number of Pokémon discovered in this generation. |
+| gen2 | integer | The number of Pokémon discovered in this generation. |
+| ⋮ | ⋮ | ⋮ |
+| total | integer | The total number of Pokémon discovered in the Pokémon World. |
+
+#### Example Request
+
+```bash
+curl -i -X GET -H \
+  "User-Agent: BastionDiscordBot (https://bastionbot.oorg, v6.16.1)" \
+  https://pokeapi.bastionbot.org/v1/pokemon/counts
+```
+
