@@ -9,6 +9,7 @@
 
 * [Categories](resources/categories.md)
 * [Egg Groups](resources/egg-groups.md)
+* [Evolution Stones](resources/evolution-stones.md)
 * [Types](resources/types.md)
 * [Meta](resources/meta.md)
 
