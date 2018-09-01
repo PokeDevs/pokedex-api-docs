@@ -7,6 +7,7 @@
 
 ## Resources
 
+* [Pokémon](resources/pokemon.md)
 * [Categories](resources/categories.md)
 * [Egg Groups](resources/egg-groups.md)
 * [Evolution Stones](resources/evolution-stones.md)
