@@ -7,5 +7,6 @@
 
 ## Resources
 
+* [Types](resources/types.md)
 * [Meta](resources/meta.md)
 
