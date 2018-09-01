@@ -79,7 +79,7 @@ The User-Agent for your application
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-
+Statistics successfully retrieved.
 {% endapi-method-response-example-description %}
 
 ```javascript
