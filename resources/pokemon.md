@@ -148,7 +148,7 @@ Pokémon successfully retrived.
 | eggGroups | array of [Pokémon egg groups](egg-groups.md) | The egg groups the Pokémon belong to |
 | height | string | The height of the Pokémon in feets |
 | weight | string | The weight of the Pokémon in pounds |
-| family | Pokémon family object | The family id, evolution stage and evolution line of the Pokémon |
+| family | [Pokémon family object](pokemon.md#pokemon-family-structure) | The family id, evolution stage and evolution line of the Pokémon |
 | starter | bool | Is it a starter Pokémon |
 | legendary | bool | Is it a legendary Pokémon |
 | mythical | bool | Is it a mythical Pokémon |
@@ -156,6 +156,14 @@ Pokémon successfully retrived.
 | mega | bool | Is it a mega evolved form of the Pokémon |
 | gen | integer | The generation the Pokémon was first discovered |
 | sprite | string | The URL of an image of the Pokémon |
+
+#### Pokémon Family Structure
+
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| id | integer | The id of Pokémon family |
+| evolutionStage | integer | The evolved stage of the Pokémon in its evolution line |
+| evolutionLine | array of strings | The list of Pokémon in its evolution line, in order |
 
 #### Example Request
 
