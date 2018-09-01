@@ -63,7 +63,7 @@ This endpoint returns a Evolution Stone object containing the details about the 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="slug" type="string" required=false %}
+{% api-method-parameter name="slug" type="string" required=true %}
 The string used to identify this evolution stone
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}

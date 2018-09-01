@@ -60,7 +60,7 @@ This endpoint returns a Pokémon League object containing the details about the 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="slug" type="string" required=false %}
+{% api-method-parameter name="slug" type="string" required=true %}
 The string used to identify a region
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
