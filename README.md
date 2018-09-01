@@ -10,3 +10,7 @@ Here you’ll find documentation on how to use our Pokédex API and any other in
 
 All of our [documentation is available on GitHub](https://github.com/PokeDevs/pokedex-api-docs) and we would ❤ corrections and improvements!
 
+
+
+Looking forward to see you make awesome apps using our API!
+
