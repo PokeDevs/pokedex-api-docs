@@ -2,7 +2,7 @@
 
 {% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/league" %}
 {% api-method-summary %}
-Get Pokémon League Names
+Pokémon League Names
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -50,7 +50,7 @@ curl -i -X GET \
 
 {% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/league/:slug" %}
 {% api-method-summary %}
-Get Pokémon League
+Pokémon League
 {% endapi-method-summary %}
 
 {% api-method-description %}

@@ -2,7 +2,7 @@
 
 {% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/evolution-stone" %}
 {% api-method-summary %}
-Get Evolution Stone Names
+Evolution Stone Names
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -53,7 +53,7 @@ curl -i -X GET \
 
 {% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/evolution-stone/:slug" %}
 {% api-method-summary %}
-Get Evolution Stone
+Evolution Stone
 {% endapi-method-summary %}
 
 {% api-method-description %}

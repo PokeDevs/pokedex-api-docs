@@ -2,7 +2,7 @@
 
 {% api-method method="get" host="https://pokeapi.bastionbot.org" path="/info" %}
 {% api-method-summary %}
-Get API Information
+API Information
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -60,7 +60,7 @@ curl -i -X GET \
 
 {% api-method method="get" host="https://pokeapi.bastionbot.org" path="/stats" %}
 {% api-method-summary %}
-Get API Statistics
+API Statistics
 {% endapi-method-summary %}
 
 {% api-method-description %}

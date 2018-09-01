@@ -2,7 +2,7 @@
 
 {% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/egg-groups" %}
 {% api-method-summary %}
-Get Pokémon Egg Groups
+Pokémon Egg Groups
 {% endapi-method-summary %}
 
 {% api-method-description %}

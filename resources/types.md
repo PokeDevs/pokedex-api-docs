@@ -2,7 +2,7 @@
 
 {% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/types" %}
 {% api-method-summary %}
-Get Pokémon Types
+Pokémon Types
 {% endapi-method-summary %}
 
 {% api-method-description %}
