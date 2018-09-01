@@ -1,8 +1,8 @@
 # Pokémon
 
-{% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/pokemon/:name" %}
+{% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/pokemon/:slug" %}
 {% api-method-summary %}
-Pokémon by name
+Pokémon
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -12,8 +12,8 @@ This endpoint returns an array of Pokémon objects containing all the forms of t
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="name" type="string" required=true %}
-The name of the Pokémon
+{% api-method-parameter name="slug" type="string" required=true %}
+Either the name or the national Pokédex number of the Pokémon
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 
@@ -32,48 +32,90 @@ Pokémon successfully retrived.
 
 ```javascript
 [
-    {
-        "number": "25",
-        "name": "Pikachu",
-        "species": "Mouse",
-        "types": [
-            "Electric"
-        ],
-        "abilities": {
-            "normal": [
-                "Static"
-            ],
-            "hidden": [
-                "Lightning Rod"
-            ]
-        },
-        "eggGroups": [
-            "Field",
-            "Fairy"
-        ],
-        "gender": [
-            50,
-            50
-        ],
-        "height": "1'04\"",
-        "weight": "13.2 lbs.",
-        "family": {
-            "id": 10,
-            "evolutionStage": 2,
-            "evolutionLine": [
-                "Pichu",
-                "Pikachu",
-                "Raichu"
-            ]
-        },
-        "starter": false,
-        "legendary": false,
-        "mythical": false,
-        "ultraBeast": false,
-        "mega": false,
-        "gen": 1,
-        "sprite": "https://pokeres.bastionbot.org/images/pokemon/25.png"
-    }
+  {
+    "number": "658",
+    "name": "Greninja",
+    "species": "Ninja",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "abilities": {
+      "normal": [
+        "Torrent"
+      ],
+      "hidden": [
+        "Protean"
+      ]
+    },
+    "eggGroups": [
+      "Water 1"
+    ],
+    "gender": [
+      87.5,
+      12.5
+    ],
+    "height": "4'11\"",
+    "weight": "88.2 lbs.",
+    "family": {
+      "id": 331,
+      "evolutionStage": 3,
+      "evolution-line": [
+        "Froakie",
+        "Frogadier",
+        "Greninja"
+      ]
+    },
+    "starter": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "mega": false,
+    "gen": 6,
+    "sprite": "https://pokeres.bastionbot.org/images/pokemon/658.png"
+  },
+  {
+    "number": "658",
+    "name": "Ash-Greninja",
+    "species": "Ninja",
+    "types": [
+      "Water",
+      "Dark"
+    ],
+    "abilities": {
+      "normal": [
+        "Torrent"
+      ],
+      "hidden": [
+        "Battle Bond"
+      ]
+    },
+    "eggGroups": [
+      "Water 1"
+    ],
+    "gender": [
+      87.5,
+      12.5
+    ],
+    "height": "4'11\"",
+    "weight": "88.2 lbs.",
+    "family": {
+      "id": 331,
+      "evolutionStage": 3,
+      "evolution-line": [
+        "Froakie",
+        "Frogadier",
+        "Greninja"
+      ]
+    },
+    "starter": false,
+    "legendary": false,
+    "mythical": false,
+    "ultraBeast": false,
+    "mega": false,
+    "gen": 6,
+    "sprite": "https://pokeres.bastionbot.org/images/pokemon/658-ash.png"
+  }
 ]
 ```
 {% endapi-method-response-example %}
@@ -107,7 +149,13 @@ Pokémon successfully retrived.
 ```bash
 curl -i -X GET \
   -H "User-Agent: BastionDiscordBot (https://bastionbot.org, v6.16.1)" \
-  https://pokeapi.bastionbot.org/v1/pokemon/pikachu
+  https://pokeapi.bastionbot.org/v1/pokemon/greninja
+```
+
+```bash
+curl -i -X GET \
+  -H "User-Agent: BastionDiscordBot (https://bastionbot.org, v6.16.1)" \
+  https://pokeapi.bastionbot.org/v1/pokemon/658
 ```
 
 {% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/pokemon/counts" %}
