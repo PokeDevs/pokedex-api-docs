@@ -14,3 +14,7 @@
 * [Types](resources/types.md)
 * [Meta](resources/meta.md)
 
+## Community Resources
+
+* [Showcase](community-resources/showcase.md)
+
