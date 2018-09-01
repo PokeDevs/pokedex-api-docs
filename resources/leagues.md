@@ -97,6 +97,19 @@ League successfully retrieved
 }
 ```
 {% endapi-method-response-example %}
+
+{% api-method-response-example httpCode=404 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+  "error": 404,
+  "message": "Oh snap! No Pokémon has been discovered in this region. You should head home: https://pokedevs.bastionbot.org"
+}
+```
+{% endapi-method-response-example %}
 {% endapi-method-response %}
 {% endapi-method-spec %}
 {% endapi-method %}
