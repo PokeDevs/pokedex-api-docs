@@ -1,6 +1,6 @@
 # Leagues
 
-{% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/league" %}
+{% api-method method="get" host="https://pokeapi.glitch.me" path="/v1/league" %}
 {% api-method-summary %}
 Pokémon League Names
 {% endapi-method-summary %}
@@ -45,10 +45,10 @@ League names successfully retrieved.
 ```bash
 curl -i -X GET \
   -H "User-Agent: BastionDiscordBot (https://bastionbot.org, v6.16.1)" \
-  https://pokeapi.bastionbot.org/v1/league
+  https://pokeapi.glitch.me/v1/league
 ```
 
-{% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/league/:slug" %}
+{% api-method method="get" host="https://pokeapi.glitch.me" path="/v1/league/:slug" %}
 {% api-method-summary %}
 Pokémon League
 {% endapi-method-summary %}
@@ -129,6 +129,6 @@ League successfully retrieved
 ```bash
 curl -i -X GET -H \
   "User-Agent: BastionDiscordBot (https://bastionbot.oorg, v6.16.1)" \
-  https://pokeapi.bastionbot.org/v1/league/kalos
+  https://pokeapi.glitch.me/v1/league/kalos
 ```
 

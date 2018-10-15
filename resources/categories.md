@@ -1,6 +1,6 @@
 # Categories
 
-{% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/categories" %}
+{% api-method method="get" host="https://pokeapi.glitch.me" path="/v1/categories" %}
 {% api-method-summary %}
 Pokémon Categories
 {% endapi-method-summary %}
@@ -43,7 +43,7 @@ Categories successfully retrieved.
 ```bash
 curl -i -X GET \
   -H "User-Agent: BastionDiscordBot (https://bastionbot.org, v6.16.1)" \
-  https://pokeapi.bastionbot.org/v1/categories
+  https://pokeapi.glitch.me/v1/categories
 ```
 
 

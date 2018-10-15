@@ -1,6 +1,6 @@
 # Egg Groups
 
-{% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/egg-groups" %}
+{% api-method method="get" host="https://pokeapi.glitch.me" path="/v1/egg-groups" %}
 {% api-method-summary %}
 Pokémon Egg Groups
 {% endapi-method-summary %}
@@ -54,6 +54,6 @@ Egg groups successfully retrieved.
 ```bash
 curl -i -X GET \
   -H "User-Agent: BastionDiscordBot (https://bastionbot.org, v6.16.1)" \
-  https://pokeapi.bastionbot.org/v1/egg-groups
+  https://pokeapi.glitch.me/v1/egg-groups
 ```
 
