@@ -1,6 +1,6 @@
 # Types
 
-{% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/types" %}
+{% api-method method="get" host="https://pokeapi.glitch.me" path="/v1/types" %}
 {% api-method-summary %}
 Pokémon Types
 {% endapi-method-summary %}
@@ -56,6 +56,6 @@ Types successfully retrieved.
 ```bash
 curl -i -X GET \
   -H "User-Agent: BastionDiscordBot (https://bastionbot.org, v6.16.1)" \
-  https://pokeapi.bastionbot.org/v1/types
+  https://pokeapi.glitch.me/v1/types
 ```
 
