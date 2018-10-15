@@ -1,6 +1,6 @@
 # Pokémon
 
-{% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/pokemon/:slug" %}
+{% api-method method="get" host="https://pokeapi.glitch.me" path="/v1/pokemon/:slug" %}
 {% api-method-summary %}
 Pokémon
 {% endapi-method-summary %}
@@ -170,16 +170,16 @@ Pokémon successfully retrived.
 ```bash
 curl -i -X GET \
   -H "User-Agent: BastionDiscordBot (https://bastionbot.org, v6.16.1)" \
-  https://pokeapi.bastionbot.org/v1/pokemon/greninja
+  https://pokeapi.glitch.me/v1/pokemon/greninja
 ```
 
 ```bash
 curl -i -X GET \
   -H "User-Agent: BastionDiscordBot (https://bastionbot.org, v6.16.1)" \
-  https://pokeapi.bastionbot.org/v1/pokemon/658
+  https://pokeapi.glitch.me/v1/pokemon/658
 ```
 
-{% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/pokemon/counts" %}
+{% api-method method="get" host="https://pokeapi.glitch.me" path="/v1/pokemon/counts" %}
 {% api-method-summary %}
 Pokémon Counts
 {% endapi-method-summary %}
@@ -234,6 +234,6 @@ Counts successfully retrieved.
 ```bash
 curl -i -X GET -H \
   "User-Agent: BastionDiscordBot (https://bastionbot.oorg, v6.16.1)" \
-  https://pokeapi.bastionbot.org/v1/pokemon/counts
+  https://pokeapi.glitch.me/v1/pokemon/counts
 ```
 
