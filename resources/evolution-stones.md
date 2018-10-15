@@ -1,6 +1,6 @@
 # Evolution Stones
 
-{% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/evolution-stone" %}
+{% api-method method="get" host="https://pokeapi.glitch.me" path="/v1/evolution-stone" %}
 {% api-method-summary %}
 Evolution Stone Names
 {% endapi-method-summary %}
@@ -48,10 +48,10 @@ Evolution stone names successfully retrieved.
 ```bash
 curl -i -X GET \
   -H "User-Agent: BastionDiscordBot (https://bastionbot.org, v6.16.1po)" \
-  https://pokeapi.bastionbot.org/v1/evolution-stone
+  https://pokeapi.glitch.me/v1/evolution-stone
 ```
 
-{% api-method method="get" host="https://pokeapi.bastionbot.org" path="/v1/evolution-stone/:slug" %}
+{% api-method method="get" host="https://pokeapi.glitch.me" path="/v1/evolution-stone/:slug" %}
 {% api-method-summary %}
 Evolution Stone
 {% endapi-method-summary %}
@@ -128,7 +128,7 @@ Evolution stone successfully retrieved.
 ```bash
 curl -i -X GET -H \
   "User-Agent: BastionDiscordBot (https://bastionbot.oorg, v6.16.1)" \
-  https://pokeapi.bastionbot.org/v1/evolution-stone/dusk
+  https://pokeapi.glitch.me/v1/evolution-stone/dusk
 ```
 
 
