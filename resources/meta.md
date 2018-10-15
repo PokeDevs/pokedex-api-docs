@@ -1,6 +1,6 @@
 # Meta
 
-{% api-method method="get" host="https://pokeapi.bastionbot.org" path="/info" %}
+{% api-method method="get" host="https://pokeapi.glitch.me" path="/info" %}
 {% api-method-summary %}
 API Information
 {% endapi-method-summary %}
@@ -27,7 +27,7 @@ Information successfully retrieved.
 ```javascript
 {
     "title": "Pokédex API",
-    "baseURL": "https://pokeapi.bastionbot.org",
+    "baseURL": "https://pokeapi.glitch.me",
     "resourceURL": "https://pokeres.bastionbot.org",
     "versions": [
         "/v1"
@@ -55,10 +55,10 @@ Information successfully retrieved.
 ```bash
 curl -i -X GET \
   -H "User-Agent: BastionDiscordBot (https://bastionbot.org, v6.16.1)" \
-  https://pokeapi.bastionbot.org/info
+  https://pokeapi.glitch.me/info
 ```
 
-{% api-method method="get" host="https://pokeapi.bastionbot.org" path="/stats" %}
+{% api-method method="get" host="https://pokeapi.glitch.me" path="/stats" %}
 {% api-method-summary %}
 API Statistics
 {% endapi-method-summary %}
@@ -107,6 +107,6 @@ Statistics successfully retrieved.
 ```bash
 curl -i -X GET \
   -H "User-Agent: BastionDiscordBot (https://bastionbot.org, v6.16.1)" \
-  https://pokeapi.bastionbot.org/stats
+  https://pokeapi.glitch.me/stats
 ```
 
