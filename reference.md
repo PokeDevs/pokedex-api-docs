@@ -9,7 +9,7 @@ Pokédex API is based on a single layer, a HTTPS/REST consumption-only API that 
 The base URL for all API requests is:
 
 ```text
-https://pokeapi.bastionbot.org
+https://pokeapi.glitch.me
 ```
 
 ### API Versioning {#api-versioning}
@@ -17,7 +17,7 @@ https://pokeapi.bastionbot.org
 Pokédex API exposes different versions of the API. You can specify version by including it in the request path:
 
 ```text
-https://pokeapi.bastionbot.org/v{version_number}
+https://pokeapi.glitch.me/v{version_number}
 ```
 
 Omitting the version number from the route will route requests to the current default version. We recommend specifying a version number in the request path so that your app doesn’t run into incompatibility when the default version is changed.V
