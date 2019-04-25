@@ -72,7 +72,8 @@ Pokémon successfully retrived.
     "ultraBeast": false,
     "mega": false,
     "gen": 6,
-    "sprite": "https://pokeres.bastionbot.org/images/pokemon/658.png"
+    "sprite": "https://pokeres.bastionbot.org/images/pokemon/658.png",
+    "description": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two."
   },
   {
     "number": "658",
@@ -114,7 +115,8 @@ Pokémon successfully retrived.
     "ultraBeast": false,
     "mega": false,
     "gen": 6,
-    "sprite": "https://pokeres.bastionbot.org/images/pokemon/658-ash.png"
+    "sprite": "https://pokeres.bastionbot.org/images/pokemon/658-ash.png",
+    "description": "It creates throwing stars out of compressed water. When it spins them and throws them at high speed, these stars can split metal in two."
   }
 ]
 ```
@@ -156,6 +158,7 @@ Pokémon successfully retrived.
 | mega | bool | Is it a mega evolved form of the Pokémon |
 | gen | integer | The generation the Pokémon was first discovered |
 | sprite | string | The URL of an image of the Pokémon |
+| description | string | The description of the Pokémon |
 
 #### Pokémon Family Structure
 
