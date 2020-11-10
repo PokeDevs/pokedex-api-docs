@@ -236,7 +236,7 @@ Counts successfully retrieved.
 
 ```bash
 curl -i -X GET -H \
-  "User-Agent: BastionDiscordBot (https://bastionbot.oorg, v6.16.1)" \
+  "User-Agent: BastionDiscordBot (https://bastionbot.org, v6.16.1)" \
   https://pokeapi.glitch.me/v1/pokemon/counts
 ```
 
