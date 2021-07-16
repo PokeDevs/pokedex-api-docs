@@ -19,7 +19,9 @@ Here’s a list of nifty libraries made by us that you can use for your project.
 
 Here’s a list of amazing libraries made by us made by brilliant developers around the world that you can use for your project.
 
-> No third-party libraries are available yet. Check back soon. If you have one, edit this page and make a pull request adding your library here.
+| Library | Language | Links |
+| :--- | :--- | :--- |
+| pokedex-api4J | Java | [Github](https://github.com/Minemobs/pokedex-api4J), [Maven](https://jitpack.io/#Minemobs/pokedex-api4J)
 
 {% hint style="info" %}
 If you are a developer and have made any wrapper library that can be used by anyone to power their application or website, we’d love to showcase your library here.
