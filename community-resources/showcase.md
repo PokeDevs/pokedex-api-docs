@@ -12,4 +12,5 @@ If you have made something with our API, make a PR to add your apps here so that
 | :--- | :--- |
 | [Bastion](https://bastionbot.org) | Discord Bot |
 | [Regalion](https://regalion.surge.sh) | Web |
+| [PokeDexAPI](https://github.com/Celerium/PokeDex-PowerShellWrapper) | PowerShell Wrapper |
 
